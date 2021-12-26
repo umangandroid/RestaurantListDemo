@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/sortRestaurantListFragment"
-        android:name="com.umang.resturantlistdemo.ui.fragments.SortRestaurantListFragment"
+        android:name="com.umang.restaurantlistdemo.ui.fragments.SortRestaurantListFragment"
         android:label="SortRestaurantListFragment" >
         <action
             android:id="@+id/action_sortRestaurantListFragment_to_searchRestaurantsFragment"
@@ -14,6 +14,6 @@
     </fragment>
     <fragment
         android:id="@+id/searchRestaurantsFragment"
-        android:name="com.umang.resturantlistdemo.ui.fragments.SearchRestaurantsFragment"
+        android:name="com.umang.restaurantlistdemo.ui.fragments.SearchRestaurantsFragment"
         android:label="SearchRestaurantsFragment" />
 </navigation>

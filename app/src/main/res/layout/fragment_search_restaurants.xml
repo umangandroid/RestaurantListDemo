@@ -4,7 +4,7 @@
         <import type="android.view.View" />
         <variable
             name="viewModel"
-            type="com.umang.resturantlistdemo.ui.viewmodels.SearchRestaurantsViewModel" />
+            type="com.umang.restaurantlistdemo.ui.viewmodels.SearchRestaurantsViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -38,7 +38,7 @@
 
             <EditText
                 android:id="@+id/etSearch"
-                addTextChangeListener="@{viewModel}"
+                app:addTextChangeListener="@{viewModel}"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="@dimen/dp_16"

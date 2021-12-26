@@ -54,7 +54,7 @@ android {
 dependencies {
     def nav_version = "2.3.5"
     def lifecycleVersion = "2.4.0"
-    def coroutinesVersion = "1.5.0"
+    def coroutinesVersion = "1.5.2"
     def gsonVersion = "2.8.9"
     def hiltVersion = "2.38.1"
     def espressoVersion = "3.3.0"

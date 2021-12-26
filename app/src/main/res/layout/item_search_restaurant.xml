@@ -5,7 +5,7 @@
 
         <variable
             name="restaurant"
-            type="com.umang.resturantlistdemo.domain.model.Restaurant" />
+            type="com.umang.restaurantlistdemo.domain.model.Restaurant" />
     </data>
 
     <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"

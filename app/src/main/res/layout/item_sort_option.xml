@@ -11,7 +11,7 @@
 
         <variable
             name="sortOption"
-            type="com.umang.resturantlistdemo.domain.model.SortOption" />
+            type="com.umang.restaurantlistdemo.domain.model.SortOption" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
