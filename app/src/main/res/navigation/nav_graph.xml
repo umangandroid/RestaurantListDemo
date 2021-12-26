@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/sortRestaurantListFragment">
+
+    <fragment
+        android:id="@+id/sortRestaurantListFragment"
+        android:name="com.umang.resturantlistdemo.ui.fragments.SortRestaurantListFragment"
+        android:label="SortRestaurantListFragment" >
+        <action
+            android:id="@+id/action_sortRestaurantListFragment_to_searchRestaurantsFragment"
+            app:destination="@id/searchRestaurantsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchRestaurantsFragment"
+        android:name="com.umang.resturantlistdemo.ui.fragments.SearchRestaurantsFragment"
+        android:label="SearchRestaurantsFragment" />
+</navigation>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">RestaurantListDemo</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="best_match">Best Match</string>
+    <string name="newest">Newest</string>
+    <string name="avg_rating">Average Rating</string>
+    <string name="distance">Distance</string>
+    <string name="popularity">Popularity</string>
+    <string name="avg_price">Average Price</string>
+    <string name="delivery_cost">Delivery Cost</string>
+    <string name="min_cost">Minimum Cost</string>
+    <string name="search_restaurants">Search Restaurants</string>
+    <string name="sort_list_by">Sort Restaurants By</string>
+    <string name="no_data_found">No Restaurants found</string>
+</resources>
